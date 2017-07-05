@@ -1,18 +1,14 @@
 # Wolfram-Summer-School-2017-Project
 
 Project Title: 
-Symbolic Hierarchical Temporal Memory
+A Musical Keyboard
 
 Project Description: 
 
-When you looks at a human brain, the first thing you notice is that its outer surface resembles a pinkish gray cauliflower. This visible outer surface is called the neocortex, or cortex for short. Almost all intelligent activity ranging from making predictions, to discovering facts, to shaping reality, to developing analogies, to imagination occurs in the cortex. 
+For my project I built an interactive, musical keyboard interface capable of producing and of the musical styles built into the Wolfram Language in any specified pitch simply by just clicking on the desired key.
 
-Hierarchical Temporal Memory (HTM) is a theoretical framework designed with two parallel goals in mind. The first is to obtain a deeper understanding of how the neocortex processes sensory input. The second is to translate this knowledge into general, flexible machine learning algorithms. 
+In using this keyboard, there are three parameters one can manipulate:
 
-The goal of my project is to implement a subset of this theory which is called Sequence Memory in the Wolfram Language. 
-
-Sequence Memory is a novel approach to sequential machine learning. It is very flexible because of its ability to learn, recall and predict future values in a sequence regardless of:
-  
-  1. Sequence Type - Elements in the sequence can be symbols, numbers, musical notes, vectors, or even other sequences.
-  2. Sequence Length - A sequence may vary from very few to very many elements.
-  3. Sequence Complexity - Complexity is defined as the number of distinct or unique contexts of elements in a sequence.
+1. Number Of Octaves: One can construct a keyboard rangin from one octave long to seven octaves long, the size of a full piano!
+2. Label Visibility: One always has the option of showing or hiding the pitch labels so that you can always see the names of the keys.
+3. Instrument (Musical Style): In the Wolfram Language there are 128 different styles that ranging from very common instruments such as the guitar, piano, or violin, but you also have access to less common instruments like the Pan Flute, the Harp, or a Xylophone, and then there are really weird sounds like Gunshots, and telephones and even Oohs and AAhs which can all be played in any pitch with this keyboard in a very simple and intuitive manner.
